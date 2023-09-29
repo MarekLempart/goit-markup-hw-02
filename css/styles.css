@@ -112,24 +112,30 @@ body {
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.07143;
-    letter-spacing: 1.12pb;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 .main-headline-button {
     color: #FFF;
     background-color: #4D5AE5;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
+.main-headline-button:hover,
+.main-headline-button:focus {
+    background-color: var(--pressed_state-color);
+}
+
 .sub-headline {
     color: var(--dark-color);
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.111111;
+    line-height: 1.1;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
