@@ -1,6 +1,45 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.navigation-logo {
+    color: #2E2F42;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16667;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.navigation-site {
+    color: #2E2F42;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.address-mail {
+    color: #434455;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.32;
+}
+
+.address-phone {
+    color: #434455;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.32;
+}
+
 .filter-button {
     color: #4D5AE5;
     background-color: #F4F4FD;
@@ -35,9 +74,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
+
+.hero-section {
+    background-color: #2E2F42;
+}
 .main-headline {
     color: #FFF;
-    background-color: #2E2F42;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
@@ -53,7 +95,7 @@ body {
     letter-spacing: 0.64px;
 }
 .sub-headline {
-    color: sub headline;
+    color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -61,8 +103,58 @@ body {
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
-
-footer {
-    font-family: 'Lobster', cursive;
-    font-family: 'Raleway', sans-serif;
+.sub-headline-objectives {
+  color: #2E2F42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
 }
+.doing-section {
+    background-color: #FFF;
+}
+
+.text-objectives {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.team-section {
+    background: #F4F4FD;
+}
+.team-peaple-name {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    }
+.team-position {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.footer {
+    background-color: #2E2F42;
+}
+.footer-navigation-logo {
+    color: #F4F4FD;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16667;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.footer-text {
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+
