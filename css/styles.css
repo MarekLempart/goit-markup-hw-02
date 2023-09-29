@@ -135,8 +135,8 @@ body {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
-    letter-spacing: 0.72px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 .sub-headline-objectives {
@@ -158,6 +158,9 @@ body {
 }
 .team-section {
     background: #F4F4FD;
+}
+.list-no {
+    background-color: #FFFFFF;
 }
 .team-peaple-name {
     color: var(--dark-color);
@@ -182,8 +185,8 @@ body {
     text-decoration: none;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.16667;
-    letter-spacing: 0.54px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .footer-text {
