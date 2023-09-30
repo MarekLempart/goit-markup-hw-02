@@ -85,10 +85,11 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.filter-buttun:hover,
+.filter-button:hover,
 .filter-button:focus {
     color: #FFFFFF;
     background-color: #404BBF;
+    
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -161,7 +162,7 @@ body {
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
 }
 .team-section {
     background: #F4F4FD;
