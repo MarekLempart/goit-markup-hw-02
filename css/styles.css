@@ -29,17 +29,15 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.link {
-    text-decoration: none;
-}
-.link span {
+
+.logo-span {
     color: var(--dark-color);
 }
 .list {
     list-style: none;
     }
 
-.navigation-site .list {
+.link {
     color: var(--dark-color);
     text-decoration: none;
     font-size: 16px;
@@ -48,24 +46,12 @@ body {
     letter-spacing: 0.02em;
     cursor: pointer;
 }
-
-.address-mail {
-    color: var(--text-color);
-    text-decoration: none;
-    font-size: 16px;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.32;
+.list link:hover, .list link:focus {
+    color: var(--pressed_state-color);
 }
-
-.address-phone {
-    color: var(--text-color);
-    text-decoration: none;
-    font-size: 16px;
+.address {
     font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.32;
-}
+    }
 
 .filter-button {
     color: var(--primary_brand-color);
