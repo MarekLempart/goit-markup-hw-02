@@ -60,14 +60,9 @@ body {
     text-decoration: none;
 }
 
-.navigation-link:hover,
-.navigation-link:focus {
-    background-color: #404bbf;
-}
-
-.address-link:hover,
-.address-link:focus {
-    background-color: #404bbf;
+.link:hover,
+.link:focus {
+    background-color: var(--pressed_state-color);
 }
 
 .address {
