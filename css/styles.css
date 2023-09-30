@@ -60,8 +60,8 @@ body {
     text-decoration: none;
 }
 
-.list link:hover, .list link:focus {
-    color: var(--pressed_state-color);
+.link:hover, .link:focus {
+    background-color: var(--pressed_state-color);
 }
 .address {
     font-style: normal;
