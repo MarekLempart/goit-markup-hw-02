@@ -62,12 +62,12 @@ body {
 
 .navigation-link:hover,
 .navigation-link:focus {
-    background-color: var(--pressed_state-color);
+    background-color: #404bbf;
 }
 
 .address-link:hover,
 .address-link:focus {
-    background-color: var(--pressed_state-color);
+    background-color: #404bbf;
 }
 
 .address {
