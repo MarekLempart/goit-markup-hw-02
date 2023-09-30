@@ -60,9 +60,15 @@ body {
     text-decoration: none;
 }
 
-.link:hover, .link:focus {
+.navigation-link:hover, .navigation-link:focus {
     background-color: var(--pressed_state-color);
 }
+
+.address-link:hover,
+.address-link:focus {
+    background-color: var(--pressed_state-color);
+}
+
 .address {
     font-style: normal;
     }
