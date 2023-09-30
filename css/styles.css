@@ -60,10 +60,7 @@ body {
     text-decoration: none;
 }
 
-.list link:hover {
-    color: var(--pressed_state-color);
-}
-.list link:focus {
+.list link:hover, .list link:focus {
     color: var(--pressed_state-color);
 }
 .address {
